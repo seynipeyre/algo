@@ -127,3 +127,14 @@ xdescribe("Latin (or Arab) numbers to Roman ", function () {
     expect(playing.arab_to_roman(1068)).toBe("MLXVIII");
   });
 })
+xdescribe("Caesar conversion", function () {
+  it("I --> L", function () {
+    expect(playing.caesar('I')).toBe('L');
+  });
+  xit("Bonjour --> Erqmrxu", function () {
+    expect(playing.caesar('Bonjour')).toBe('Erqmrxu');
+  });
+  xit("Bonjour --> Erqmrxu", function () {
+    expect(playing.caesar('Bonjour', 1)).toBe('Cpokpvs');
+  });
+})
