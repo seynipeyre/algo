@@ -1,0 +1,13 @@
+{
+  "name": "js-playing-with-jasmine",
+  "version": "0.0.1",
+  "description": "* Installer Node.js et NPM\r   * [Windows](http://blog.teamtreehouse.com/install-node-js-npm-windows)\r   * [Mac OS](http://blog.teamtreehouse.com/install-node-js-npm-mac)\r   * [Linux](http://blog.teamtreehouse.com/install-node-js-npm-linux)",
+  "scripts": {
+    "test": "jasmine playing/playing.spec.js"
+  },
+  "author": "Erwann DUCLOS",
+  "license": "MIT",
+  "dependencies": {
+    "jasmine": "^5.0.2"
+  }
+}
